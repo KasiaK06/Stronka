@@ -1,0 +1,105 @@
+
+* {
+  color: aliceblue;
+}
+body {
+  line-height: 1;
+  box-sizing: border-box;
+  text-align: justify;   
+}
+
+
+body {
+  z-index: 0;
+  background-image: url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.footer {
+  bottom: 0;
+  position: to;
+  width: 100vw;
+  height: 5vh;
+  background-color: hsla(0, 0%, 0%, 0.489);
+}
+
+.footer ol {
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer ol li {
+  padding: 1%;
+  line-height: normal;
+  margin-left: 3%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer ol li :hover {
+  background-color: hsla(0, 0%, 0%, 0.489);
+  box-shadow: 0 5px 15px hsla(0, 0%, 0%, 0.489);
+}
+
+.header {
+  width: 100vw;
+  height: 6vh;
+  background-color: hsla(0, 0%, 0%, 0.489);
+  position: fixed;
+  top: 0;
+}
+
+.header ol {
+  margin: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header ol li {
+  line-height: normal;
+  margin-left: 3%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header ol li a {
+  text-shadow: 20cap;
+  font-size: 1.3rem;
+}
+
+h2 {
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+iframe {
+  width: 100%;
+}
+
+.space {
+  width: 100vw;
+  height: 6vh;
+}
+
+.photo-box {
+  margin: 2%;
+  max-width: 400px;
+  max-height: 1000px;
+  border-radius: 30px;
+  background-color: hsla(0, 0%, 0%, 0.217);
+  padding: 10px;
+}
+
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=main.css.map */

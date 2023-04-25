@@ -1,0 +1,27 @@
+.footer {
+    bottom: 0;
+    position: to;
+    width: 100vw;
+    height: 5vh;
+    background-color:$backgroun_color;
+  }
+  
+  .footer ol {
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer ol li {
+    padding: 1%;
+    line-height: normal;
+    margin-left: 3%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .footer ol li :hover {
+    background-color: $backgroun_color;
+    box-shadow: 0 5px 15px $backgroun_color;
+  }

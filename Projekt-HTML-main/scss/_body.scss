@@ -1,0 +1,18 @@
+
+* {
+    color: $font_color;
+  }
+  body {
+    line-height: 1;
+    box-sizing: border-box;
+    text-align: justify;   
+  }
+  
+  
+  body {
+    z-index: 0;
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }

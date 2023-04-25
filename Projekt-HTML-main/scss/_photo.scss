@@ -1,0 +1,16 @@
+.photo-box {
+    margin: 2%;
+    max-width: 400px;
+    max-height: 1000px;
+    border-radius: 30px;
+    background-color: $backgroun_color;
+    padding: 10px;
+  }
+  
+  .photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
